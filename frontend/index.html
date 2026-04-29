@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NirvachanMitra | Indian Election Education</title>
+    <meta name="description"
+        content="Learn about the Indian election process with NirvachanMitra - your friendly guide to the world's largest democracy.">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="navbar glass">
+            <div class="container nav-container">
+                <a href="#" class="nav-logo">
+                    <img src="https://i.postimg.cc/nzR9HX89/logo.jpg" alt="Logo" class="logo-img">
+                    Nirvachan<span>Mitra</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#timeline" data-en="Roadmap" data-hi="चुनावी रोडमैप">Roadmap</a>
+                    <a href="#modules" data-en="Deep Dives" data-hi="विस्तृत जानकारी">Deep Dives</a>
+                    <a href="#quiz" data-en="Quiz" data-hi="क्विज़">Quiz</a>
+                    <a href="#assistant" data-en="Assistant" data-hi="निर्वाचन सहायक">Assistant</a>
+                </div>
+                <div class="lang-toggle">
+                    <button id="langBtn" class="btn-lang glass">HI</button>
+                </div>
+            </div>
+        </nav>
+
+        <section id="hero">
+            <div class="hero-bg"></div>
+            <div class="container">
+                <h1 class="hero-title" data-en="NirvachanMitra" data-hi="निर्वाचन मित्र">NirvachanMitra</h1>
+                <p class="hero-subtitle"
+                    data-en="Demystifying the world's largest democratic exercise. From registration to results, empower your civic journey."
+                    data-hi="दुनिया के सबसे बड़े लोकतंत्र की चुनावी प्रक्रिया को सरल भाषा में समझें। पंजीकरण से लेकर परिणामों तक, अपनी नागरिक यात्रा को सशक्त बनाएं।">
+                    Demystifying the world's largest democratic exercise. From registration to
+                    results, empower your civic journey.</p>
+                <button class="btn-primary" data-en="Explore the Roadmap" data-hi="चुनावी रोडमैप देखें"
+                    onclick="document.getElementById('timeline').scrollIntoView({behavior: 'smooth'})">Explore the
+                    Roadmap</button>
+            </div>
+        </section>
+
+        <section id="timeline">
+            <div class="container">
+                <h2 class="section-title" data-en="The Electoral Roadmap" data-hi="चुनावी रोडमैप">The Electoral Roadmap
+                </h2>
+                <div class="roadmap">
+                    <div class="step">
+                        <div class="step-marker"></div>
+                        <div class="step-content glass">
+                            <h3 class="step-title" data-en="1. Delimitation & Rolls"
+                                data-hi="1. परिसीमन और मतदाता सूची">1. Delimitation & Rolls</h3>
+                            <p data-en="Updating boundaries and ensuring every eligible citizen is on the list. The foundation of 'One Vote, One Value'."
+                                data-hi="निर्वाचन क्षेत्रों की सीमाओं को अपडेट करना और यह सुनिश्चित करना कि प्रत्येक पात्र नागरिक मतदाता सूची में है। यह 'एक वोट, एक मूल्य' का आधार है।">
+                                Updating boundaries and ensuring every eligible citizen is on the list. The foundation
+                                of
+                                'One Vote, One Value'.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-marker"></div>
+                        <div class="step-content glass">
+                            <h3 class="step-title" data-en="2. Notification" data-hi="2. चुनाव अधिसूचना">2. Notification
+                            </h3>
+                            <p data-en="The ECI officially sounds the bugle. The Model Code of Conduct kicks in immediately to ensure fairness."
+                                data-hi="भारतीय चुनाव आयोग आधिकारिक तौर पर चुनाव की घोषणा करता है। निष्पक्षता सुनिश्चित करने के लिए आदर्श आचार संहिता तुरंत लागू हो जाती है।">
+                                The ECI officially sounds the bugle. The Model Code of Conduct kicks in immediately to
+                                ensure fairness.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-marker"></div>
+                        <div class="step-content glass">
+                            <h3 class="step-title" data-en="3. Nominations" data-hi="3. उम्मीदवारों का नामांकन">3.
+                                Nominations</h3>
+                            <p data-en="Candidates file their papers. Scrutiny and withdrawal phases follow to finalize the ballot paper."
+                                data-hi="उम्मीदवार अपना नामांकन पत्र दाखिल करते हैं। मतपत्र को अंतिम रूप देने के लिए पत्रों की जांच और नाम वापसी की प्रक्रिया होती है।">
+                                Candidates file their papers. Scrutiny and withdrawal phases follow to finalize the
+                                ballot paper.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-marker"></div>
+                        <div class="step-content glass">
+                            <h3 class="step-title" data-en="4. Campaigning" data-hi="4. प्रचार">4. Campaigning</h3>
+                            <p data-en="Political parties share their vision. The campaign ends 48 hours before polling begins (The Silence Period)."
+                                data-hi="राजनीतिक दल अपना दृष्टिकोण साझा करते हैं। मतदान शुरू होने से 48 घंटे पहले प्रचार समाप्त हो जाता है (मौन अवधि)।">
+                                Political parties share their vision. The campaign ends 48 hours before polling begins
+                                (The Silence Period).</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-marker"></div>
+                        <div class="step-content glass">
+                            <h3 class="step-title" data-en="5. Polling Day" data-hi="5. मतदान दिवस">5. Polling Day</h3>
+                            <p data-en="The big day. Citizens use EVMs and verify their vote with VVPAT. Every vote is a powerful voice."
+                                data-hi="लोकतंत्र का सबसे बड़ा दिन। नागरिक ईवीएम के माध्यम से वोट डालते हैं और वीवीपीएटी से इसकी पुष्टि करते हैं। आपका हर वोट शक्तिशाली है।">
+                                The big day. Citizens use EVMs and verify their vote with VVPAT. Every vote is a
+                                powerful
+                                voice.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-marker"></div>
+                        <div class="step-content glass">
+                            <h3 class="step-title" data-en="6. Counting & Results" data-hi="6. मतगणना और परिणाम">6.
+                                Counting & Results</h3>
+                            <p data-en="EVMs are opened in the presence of agents. The results are declared, shaping the future of the nation."
+                                data-hi="एजेंटों की मौजूदगी में ईवीएम खोली जाती हैं। परिणाम घोषित किए जाते हैं, जो राष्ट्र के भविष्य को आकार देते हैं।">
+                                EVMs are opened in the presence of agents. The results are declared, shaping the future
+                                of the nation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="modules">
+            <div class="container">
+                <h2 class="section-title" data-en="Deep Dives" data-hi="गहराई से">Deep Dives</h2>
+                <div class="module-grid">
+                    <div class="module-card glass">
+                        <span class="module-icon">🛡️</span>
+                        <h3 class="step-title" data-en="SVEEP Initiative" data-hi="स्वीप पहल">SVEEP Initiative</h3>
+                        <p data-en="ECI's flagship program to educate voters and increase participation. No voter to be left behind."
+                            data-hi="मतदाताओं को शिक्षित करने और भागीदारी बढ़ाने के लिए ईसीआई का प्रमुख कार्यक्रम। कोई भी मतदाता पीछे न छूटे।">
+                            ECI's flagship program to educate voters and increase participation. No voter to be left
+                            behind.</p>
+                    </div>
+                    <div class="module-card glass">
+                        <span class="module-icon">📟</span>
+                        <h3 class="step-title" data-en="EVM & VVPAT" data-hi="ईवीएम और वीवीपीएटी">EVM & VVPAT</h3>
+                        <p data-en="The tech behind the vote. EVMs are tamper-proof standalone machines, and VVPAT provides a physical audit trail."
+                            data-hi="वोट के पीछे की तकनीक। ईवीएम टैम्पर-प्रूफ स्टैंडअलोन मशीनें हैं, और वीवीपीएटी एक भौतिक ऑडिट ट्रेल प्रदान करता है।">
+                            The tech behind the vote. EVMs are tamper-proof standalone machines, and VVPAT provides a
+                            physical audit trail.</p>
+                    </div>
+                    <div class="module-card glass">
+                        <span class="module-icon">⚖️</span>
+                        <h3 class="step-title" data-en="Code of Conduct" data-hi="आचार संहिता">Code of Conduct</h3>
+                        <p data-en="Rules that govern political parties during elections to ensure a level playing field for everyone."
+                            data-hi="नियम जो चुनाव के दौरान राजनीतिक दलों को नियंत्रित करते हैं ताकि सभी के लिए समान अवसर सुनिश्चित हो सकें।">
+                            Rules that govern political parties during elections to ensure a level playing field for
+                            everyone.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz">
+            <div class="container">
+                <h2 class="section-title" data-en="Civic Quiz" data-hi="प्रश्नोत्तरी">Civic Quiz</h2>
+                <div class="quiz-container glass" id="quizContainer">
+                    <div id="quizStart">
+                        <h3 data-en="Test Your Knowledge!" data-hi="अपनी चुनावी जानकारी का परीक्षण करें!">Test Your
+                            Knowledge!</h3>
+                        <p data-en="How well do you know the Indian electoral system? Take this quick quiz to find out."
+                            data-hi="आप भारतीय चुनाव प्रणाली को कितनी बेहतर तरह से जानते हैं? यह जानने के लिए इस छोटी सी क्विज़ में भाग लें।">
+                            How well do you know the Indian electoral system? Take this quick quiz to find out.</p>
+                        <button class="btn-primary" id="startQuizBtn" data-en="Start Quiz"
+                            data-hi="क्विज़ शुरू करें">Start Quiz</button>
+                    </div>
+                    <div id="quizContent" style="display: none;">
+                        <div class="quiz-header">
+                            <span id="questionNumber">Question 1/3</span>
+                            <div class="progress-bar">
+                                <div id="progress"></div>
+                            </div>
+                        </div>
+                        <h3 id="questionText">Question content goes here?</h3>
+                        <div class="quiz-options" id="quizOptions">
+                            <!-- Options will be injected here -->
+                        </div>
+                        <div id="quizFeedback" class="quiz-feedback" style="display: none;"></div>
+                    </div>
+                    <div id="quizResult" style="display: none;">
+                        <h3 data-en="Quiz Complete!" data-hi="क्विज़ समाप्त!">Quiz Complete!</h3>
+                        <div class="result-score" id="resultScore">0/0</div>
+                        <p id="resultText" data-en="Great effort! Keep learning."
+                            data-hi="शानदार प्रयास! और जानकारी प्राप्त करते रहें।">Great effort! Keep learning.</p>
+                        <button class="btn-primary" onclick="location.reload()" data-en="Restart Quiz"
+                            data-hi="क्विज़ फिर से शुरू करें">Restart Quiz</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="assistant">
+            <div class="container">
+                <h2 class="section-title" data-en="NirvachanMitra Assistant" data-hi="निर्वाचनमित्र सहायक">
+                    NirvachanMitra Assistant</h2>
+                <div class="chat-container glass">
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message bot"
+                            data-en="Namaste! I am your **NirvachanMitra**. 🙏<br>How can I help you understand the Indian election process today?"
+                            data-hi="नमस्ते! मैं आपका **निर्वाचन मित्र** हूँ। 🙏<br>आज मैं भारतीय चुनाव प्रक्रिया को समझने में आपकी क्या सहायता कर सकता हूँ?">
+                            Namaste! I am your **NirvachanMitra**. 🙏<br>
+                            How can I help you understand the Indian election process today?
+                        </div>
+                    </div>
+                    <div class="suggested-questions">
+                        <button class="suggested-chip" data-en="How to register?" data-hi="पंजीकरण कैसे करें?">How to
+                            register?</button>
+                        <button class="suggested-chip" data-en="What is EVM?" data-hi="ईवीएम क्या है?">What is
+                            EVM?</button>
+                        <button class="suggested-chip" data-en="Code of Conduct" data-hi="आचार संहिता">Code of
+                            Conduct</button>
+                    </div>
+                    <div class="chat-input-area">
+                        <input type="text" id="userInput" class="chat-input"
+                            placeholder="Ask about voting, registration, EVMs..."
+                            data-en-placeholder="Ask about voting, registration, EVMs..."
+                            data-hi-placeholder="मतदान, पंजीकरण, ईवीएम के बारे में पूछें...">
+                        <button class="chat-send" id="sendBtn">➤</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p data-en="&copy; 2026 NirvachanMitra. Empowering the largest democracy. 🇮🇳 Built in India"
+                    data-hi="&copy; 2026 निर्वाचनमित्र। सबसे बड़े लोकतंत्र को सशक्त बनाना। 🇮🇳 भारत में निर्मित">&copy;
+                    2026 NirvachanMitra. Empowering the largest democracy. 🇮🇳 Built in India</p>
+                <div class="footer-links">
+                    <a href="https://voters.eci.gov.in/" target="_blank" data-en="Voter Portal"
+                        data-hi="मतदाता पोर्टल">Voter Portal</a>
+                    <a href="https://eci.gov.in/" target="_blank" data-en="ECI Website" data-hi="ईसीआई वेबसाइट">ECI
+                        Website</a>
+                    <span class="footer-separator">|</span>
+                    <a href="https://github.com/vivekmaurya18" target="_blank" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/vivekma78565/" target="_blank" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.989v-10.131c0-7.88-8.922-7.593-11.02-3.711v-2.158z" />
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <button id="backToTop" class="back-to-top glass" title="Back to Top">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+        </button>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
